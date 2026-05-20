@@ -1,7 +1,7 @@
 //Target date − Current date = Time remaining
 
 // to set countdown date a by adding sec to the curent date. (from RIGHT NOW)
-let countdownDate = new Date().setSeconds(new Date().getSeconds() + 100000);
+let countdownDate = new Date().setSeconds(new Date().getSeconds() + 10000000);
 
 let timerInterval;
 let daysElem,
